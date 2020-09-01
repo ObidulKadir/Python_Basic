@@ -1,5 +1,5 @@
 #Binary search 
-pos = -1
+pos = 0
 def Binary_Search(list,key):
 	l = 0  #lower bound index
 	u = len(list) - 1 #upper bound index
@@ -21,6 +21,6 @@ def Binary_Search(list,key):
 list = [3,4,5,6,9,10]
 key  = 10
 if Binary_Search(list,key):
-	print("Item is found at ",pos+1)
+	print("Item is found at ",pos)
 else:
 	print("Not found")
